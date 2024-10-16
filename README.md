@@ -58,6 +58,8 @@ An ASP.NET C# Server coupled with a React Client, designed with Google MUI for a
 ### 2. Media Creator Site
 - Rename `appsettings.temp.json` to `appsettings.Development.json`.
 - Update `appsettings.Development.json` with the necessary API keys and credentials.
+- Rename `/MediaCreatorSite/ClientApp/.env.temp` to `/MediaCreatorSite/ClientApp/.env.development`
+- Update `/MediaCreatorSite/ClientApp/.env.development` with the necessary API keys and credentials.
 - Run the site using Visual Studio or install the Azure Functions Core Tools and run `func start` in the project directory.
 
 ## Conclusion
