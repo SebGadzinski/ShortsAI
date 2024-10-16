@@ -26,7 +26,7 @@ An ASP.NET C# Server coupled with a React Client, designed with Google MUI for a
 - MVC Architecture for structured, maintainable code.
 
 ### Client
-- React for dynamic, interactive UI components.
+- React & Javascript for dynamic, interactive UI components.
 - Google MUI for material design-based styling.
 
 ### Video Generation
