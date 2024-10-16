@@ -1,0 +1,22 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=mediafiledata;AccountKey=XXX;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "MediaCreatorDB": "Server=.\\SQLEXPRESS;Database=MediaCreatorSite;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+    "ChatGPT:API_KEY": "sk-XXX",
+    "DeepAI:API_KEY": "XXX",
+    "DeepAI:BaseUrl": "https://api.deepai.org/api/text2img",
+    "Google:API_KEY": "XXX",
+    "Google:JsonKeyPath": "C:\\Users\\user\\GitHub\\ShortsAI\\MediaCreatorFunctions\\google-credentials.json",
+    "Stripe:SECRET_KEY": "sk_test_XXX",
+    "Stripe:PUBLISH_KEY": "pk_test_XXX",
+    "AzureBlobStorage:Container": "videos",
+    "WorkingDirectory": "C:\\MediaCreatorData",
+    "ffmpeg": "C:\\ffmpeg\\bin\\ffmpeg.exe",
+    "NeededTags": "Scary, Suspense, Upbeat, Interesting",
+    "Youtube:Email": "do.not.reply@gmail.com",
+    "Youtube:Password": "pass",
+    "PATH:Chromedriver": "C:/chrome/chromedriver.exe"
+  }
+}

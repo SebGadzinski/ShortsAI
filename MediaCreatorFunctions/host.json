@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Request": "None",
+      "Azure": "Error",
+      "Azure.Storage": "Error",
+      "Microsoft": "Warning",
+      "MediaCreatorFunctions.Youtube": "Information",
+      "MediaCreatorFunctions.ServerRunning": "Error"
+    }
+  }
+}

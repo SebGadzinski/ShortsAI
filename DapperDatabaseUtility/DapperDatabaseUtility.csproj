@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Company>Kalder</Company>
+    <Authors>Sebastian Gadzinski</Authors>
+    <Version>1.0.2</Version>
+    <Description>Extendable Classes for command and query database handlers that contain generic functionality using Dapper to reduce the amount of code in your project.</Description>
+    <PackageProjectUrl>https://github.com/SebGadzinski/DapperDatabaseUtlity/blob/master/README.md</PackageProjectUrl>
+    <PackageIcon>D_Utility.png</PackageIcon>
+    <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/SebGadzinski/DapperDatabaseUtlity</RepositoryUrl>
+    <PackageTags>Dapper;Database;Command;Query;Handler;Generic;Bulk;</PackageTags>
+    <PackageReleaseNotes>First release of the DapperDatabaseUtility project contains the BaseCommandHandler and BaseQueryHandler that can be used to reduce the amount of code you have to write and make your database code cleaner. </PackageReleaseNotes>
+	<PackageLicenseFile>license.txt</PackageLicenseFile>
+	<Copyright>MIT</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\OneDrive - Neelands Group Limited\Pictures\D_Utility.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+	  <None Include="license.txt" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ReadMe.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
