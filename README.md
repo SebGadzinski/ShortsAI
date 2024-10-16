@@ -44,7 +44,7 @@ An ASP.NET C# Server coupled with a React Client, designed with Google MUI for a
 
 ### YouTube Uploading
 - Automates video uploads to YouTube using Selenium.
-- **Important**: This feature is compatible only with a specific Chromium release (version X.X.X), due to certain limitations from Google.
+- **Important**: This feature is compatible only with a specific Chromium release (version 115.0.5790.0 Developer Build), due to certain limitations from Google.
 - Ensure you are logged in as the YouTube user account for successful uploads.
 
 ## How to Run
